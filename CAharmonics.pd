@@ -1,4 +1,4 @@
-#N canvas 1699 -270 1399 548 12;
+#N canvas 71 286 1399 548 12;
 #X obj 200 124 vradio 19 1 0 11 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0;
 #X obj 47 361 -;
 #X floatatom 47 385 5 0 10 0 - - - 0;
@@ -85,6 +85,7 @@
 #X obj 225 55 -;
 #X obj 350 -21 unpack f f f f f f f f f f;
 #X obj 350 -48 inlet;
+#X text 668 -2 put *10 above swap;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
